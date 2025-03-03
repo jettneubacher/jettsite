@@ -1,0 +1,107 @@
+:root {
+    --f: Times;
+    --text: #3f1a61;
+    --primary: #ab76de;
+    --secondary: #ab76de;
+    --light: #d6b8f1;
+    --dark: #7131ad;
+    --bg: #fff;
+}
+[data-theme="dark"] {
+    --f: Times;
+    --text: #fff;
+    --primary: #723ea3;
+    --secondary: #612d91;
+    --light: #945bc9;
+    --dark: #341c4a;
+    --bg: #452861;
+}
+
+body {
+    background: var(--bg);
+}
+
+.navCT {
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background: var(--bg);
+}
+
+.nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    margin-top: 1rem;
+    color: var(--text);
+    background: var(--bg);
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn {
+    border-color: var(--light);
+    color: var(--text);
+}
+
+.btn:hover {
+    background: var(--light);
+    color: var(--bg);
+}
+
+.card {
+    width:auto;
+    height:auto;
+    color: var(--text);
+    border-color: var(--light);
+}
+
+
+.main-item {
+    margin:auto;
+    width: 50%;
+    position: relative;
+    margin-bottom: 100vh;
+    margin-top:40vh;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    right:0;
+    padding: 1rem;
+}
+
+#name {
+    scroll-margin-top: 45rem;
+    color: var(--text);
+}
+
+#about {
+    scroll-margin-top:15rem;
+    color: var(--text);
+}
+
+#projects {
+    scroll-margin-top:15rem;
+    color: var(--text);
+}
+
+#contact {
+    scroll-margin-top:15rem;
+    color: var(--text);
+}
