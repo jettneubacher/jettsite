@@ -44,7 +44,8 @@ function Projects() {
             </h5>
             <p class="card-text">
               React/Vite Frontend chat app, connected to Heroku backend that
-              calls the OpenAI API
+              calls the OpenAI API. Utilizes AI prompt engineering and manually
+              managed API state
             </p>
             <a
               href="https://jettneubacher.github.io/chatbot"
