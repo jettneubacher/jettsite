@@ -8,9 +8,9 @@ function Name() {
       class="main-item"
       id="name"
     >
-      <p>Hello, my name is</p>
-      <h1>Jett Neubacher.</h1>
-      <h4>2024 CS Graduate, Academic Tutor, Drummer</h4>
+      <div>Hello, my name is</div>
+      <div class="main-header">Jett Neubacher.</div>
+      <div class="sub-header">2024 CS Graduate, Academic Tutor, Drummer</div>
     </motion.div>
   );
 }

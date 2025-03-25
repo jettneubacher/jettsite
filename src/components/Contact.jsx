@@ -5,11 +5,11 @@ function Contact() {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      viewport={{ once: true, margin: "0px 0px -75px 0px" }}
-      class="main-item"
+      viewport={{ amount: 0.1 }}
+      class="last-item"
       id="contact"
     >
-      <h1>Contact</h1>
+      <h1 class="main-header">Contact</h1>
       <br></br>
       <div>
         <motion.a

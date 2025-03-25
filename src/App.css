@@ -1,7 +1,7 @@
 :root {
     --f: Times;
     --text: #3f1a61;
-    --primary: #ab76de;
+    --primary: #fff;
     --secondary: #ab76de;
     --light: #d6b8f1;
     --dark: #7131ad;
@@ -9,16 +9,21 @@
 }
 [data-theme="dark"] {
     --f: Times;
-    --text: #fff;
-    --primary: #723ea3;
-    --secondary: #612d91;
+    --text: #d0b3eb;
+    --primary: #432c59;
+    --secondary: #4b2271;
     --light: #945bc9;
     --dark: #341c4a;
-    --bg: #452861;
+    --bg: #2a183b;
+}
+
+*{
+    background: var(--bg);
 }
 
 body {
     background: var(--bg);
+
 }
 
 .navCT {
@@ -37,6 +42,7 @@ body {
     gap: 2rem;
     padding: 0 2rem;
     margin-top: 1rem;
+    padding-bottom: 0.5rem;
     color: var(--text);
     background: var(--bg);
 }
@@ -47,6 +53,7 @@ body {
     list-style: none;
     display: flex;
     gap: 2rem;
+    background: var(--bg);
 }
 .nav a {
     color: inherit;
@@ -55,28 +62,83 @@ body {
 
 .btn {
     border-color: var(--light);
+    background: var(--primary);
     color: var(--text);
+    font-size: 1rem;
 }
+
 
 .btn:hover {
     background: var(--light);
     color: var(--bg);
 }
 
-.card {
-    width:auto;
-    height:auto;
+#LDbtn {
+    background: var(--bg);
+    font-size: 1rem;
+    border-color: var(--bg);
+}
+
+#LDbtn:hover {
+    background: var(--bg);
     color: var(--text);
     border-color: var(--light);
 }
 
+.card {
+    width:auto;
+    height:auto;
+    padding-bottom: 1rem;
+    color: var(--text);
+    border-color: var(--light);
+    background: var(--primary);
+
+}
+
+.card-body,.card-title,.card-text {
+    background: var(--primary);
+}
+
+.pContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 13rem);
+    gap: 1rem;
+
+}
 
 .main-item {
     margin:auto;
     width: 50%;
     position: relative;
-    margin-bottom: 100vh;
-    margin-top:40vh;
+    padding-top:40vh;
+    padding-bottom:50vh;
+
+}
+
+.last-item {
+    margin:auto;
+    width: 50%;
+    position: relative;
+    padding-top:30vh;
+    padding-bottom:30vh;
+}
+
+.main-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.sub-header {
+    font-size: 1.5rem;
+}
+
+.resumeList {
+    padding: 0;
+    padding-top: 1rem;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
 }
 
 .footer {
@@ -86,22 +148,41 @@ body {
     padding: 1rem;
 }
 
+
 #name {
-    scroll-margin-top: 45rem;
+    scroll-margin-top:0rem;
     color: var(--text);
 }
 
 #about {
-    scroll-margin-top:15rem;
+    scroll-margin-top:-8rem;
     color: var(--text);
 }
 
 #projects {
-    scroll-margin-top:15rem;
+    scroll-margin-top:-8rem;
     color: var(--text);
 }
 
 #contact {
-    scroll-margin-top:15rem;
+    scroll-margin-top:-3rem;
     color: var(--text);
+}
+
+@media (max-width: 1000px) {
+    .btn, body {
+        font-size: .75rem;
+    }
+    .main-item {
+        width: 75%;
+    }
+    .main-header {
+        font-size: 1.5rem;
+    }
+    .sub-header {
+        font-size: 1.3rem;
+    }
+    .card-title {
+        font-size: 1rem;;
+    }
 }
