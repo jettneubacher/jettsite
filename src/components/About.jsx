@@ -28,7 +28,7 @@ function About() {
             </li>
             <li>
               <motion.a
-                href="https://drive.google.com/file/d/1lB-Wy2JnjmRFniEXyQjK_YSarmEcG8C7/view?usp=sharing"
+                href="https://drive.google.com/file/d/1vYtdryberSpvM--fy1ltX1r-4DN7aUWf/view?usp=sharing"
                 target="_blank"
                 class="btn"
                 role="button"
