@@ -10,6 +10,12 @@
     background: var(--bg); /* Or whatever color */
     position: relative;
   }
+
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
   
   .navbar-links ul {
     display: flex;
@@ -30,26 +36,32 @@
   
   /* Mobile version */
   @media (max-width: 700px) {
-    .navbar-links ul {
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-links.active {
+        display: block;
+      }
+    
+    .navbar-links.active ul {
       flex-direction: column;
       background-color: var(--bg);
       position: absolute;
-      top: 3rem; /* adjust based on your navbar height */
+      top: 2rem; /* adjust based on your navbar height */
       right: 15px;
-      padding: 10px;
       border-radius: 10px;
       border: 2px solid var(--light);
-      display: none;
       z-index: 1000;
+      list-style: none;
+      padding: 10px;
       gap: 1rem;
-    }
-  
-    .navbar-links.active ul {
-      display: flex;
+        z-index: 1000;
     }
   
     .navbar-toggle {
-      display: block;
+        display: block;
+      top: -0.3rem;
     }
   }
   

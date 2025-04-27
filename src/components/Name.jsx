@@ -10,7 +10,9 @@ function Name() {
     >
       <div>Hello, my name is</div>
       <div class="main-header">Jett Neubacher.</div>
-      <div class="sub-header">2024 CS Graduate, Academic Tutor, Drummer</div>
+      <div class="sub-header">
+        2024 Computer Science Graduate, Academic Tutor, Drummer
+      </div>
     </motion.div>
   );
 }

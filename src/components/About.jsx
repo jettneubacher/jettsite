@@ -47,11 +47,11 @@ function About() {
         drums. I am based out of NYC.
       </p>
       <p>
-        While in school, I developed a strong proclivity for all things software
-        related. Since I graduated in 2024, I have made it my mission to develop
-        my skills through personal projects and independent research. It is my
-        goal to build a carreer in computer science rooted in technical
-        expertise and my love for problem solving.
+        While in school, I developed a penchant for all things software related.
+        Since I graduated in 2024, I have made it my mission to develop my
+        skills through personal projects and independent research. It is my goal
+        to build a career in computer science rooted in technical expertise and
+        my love for problem solving.
       </p>
       <p>
         While not pursuing my passion for coding, I spend my time making music
