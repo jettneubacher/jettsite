@@ -1,0 +1,55 @@
+.navCT {
+    width: 100%;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: var(--bg); /* Or whatever color */
+    position: relative;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+  }
+  
+  /* Mobile version */
+  @media (max-width: 700px) {
+    .navbar-links ul {
+      flex-direction: column;
+      background-color: var(--bg);
+      position: absolute;
+      top: 3rem; /* adjust based on your navbar height */
+      right: 15px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid var(--light);
+      display: none;
+      z-index: 1000;
+      gap: 1rem;
+    }
+  
+    .navbar-links.active ul {
+      display: flex;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  

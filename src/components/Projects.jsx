@@ -22,21 +22,21 @@ function Projects() {
         </motion.div>
         <motion.div class="card" whileHover={{ scale: 1.1 }}>
           <div class="card-body">
-            <h5 class="card-title">
-              Social Media, AI, and Art: A new avant-garde
-            </h5>
+            <h5 class="card-title">AI Drum Transcriber</h5>
             <p class="card-text">
-              Research paper and interview with artist Alex Both
+              Full stack tool that translates audio into written tablature using
+              an AI model that I built. Utilizes python, react, and vite.
             </p>
             <a
-              href="https://drive.google.com/file/d/1IvqWH6fQpb56MnOU50VPv9tf54Zt0ETg/view?usp=sharing"
+              href="https://jettneubacher.github.io/DrumTabs"
               target="blank"
               class="btn"
             >
-              View
+              Visit
             </a>
           </div>
         </motion.div>
+
         <motion.div class="card" whileHover={{ scale: 1.1 }}>
           <div class="card-body">
             <h5 class="card-title">
@@ -58,13 +58,14 @@ function Projects() {
         </motion.div>
         <motion.div class="card" whileHover={{ scale: 1.1 }}>
           <div class="card-body">
-            <h5 class="card-title">Flutter CodeLabs: First App</h5>
+            <h5 class="card-title">
+              Social Media, AI, and Art: A new avant-garde
+            </h5>
             <p class="card-text">
-              Google CodeLabs guided Flutter project. My first app built for the
-              web with Flutter and Dart
+              Research paper and interview with artist Alex Both
             </p>
             <a
-              href="https://jettneubacher.github.io/flutter1/"
+              href="https://drive.google.com/file/d/1IvqWH6fQpb56MnOU50VPv9tf54Zt0ETg/view?usp=sharing"
               target="blank"
               class="btn"
             >
