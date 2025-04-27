@@ -17,6 +17,17 @@ function About() {
           <ul class="resumeList">
             <li>
               <motion.a
+                href="https://drive.google.com/file/d/1-WrKNQOpqb5L-nvfGdlVyPGqRV4r7_XG/view?usp=sharing"
+                target="_blank"
+                class="btn"
+                role="button"
+                whileHover={{ scale: 1.1 }}
+              >
+                CS Resume{" "}
+              </motion.a>
+            </li>
+            <li>
+              <motion.a
                 href="https://drive.google.com/file/d/1VEjTGdlXeYezW_U4QmO8FADICLGaMwfS/view?usp=sharing"
                 target="_blank"
                 class="btn"
@@ -24,17 +35,6 @@ function About() {
                 whileHover={{ scale: 1.1 }}
               >
                 General Resume{" "}
-              </motion.a>
-            </li>
-            <li>
-              <motion.a
-                href="https://drive.google.com/file/d/1vYtdryberSpvM--fy1ltX1r-4DN7aUWf/view?usp=sharing"
-                target="_blank"
-                class="btn"
-                role="button"
-                whileHover={{ scale: 1.1 }}
-              >
-                CS Resume{" "}
               </motion.a>
             </li>
           </ul>
