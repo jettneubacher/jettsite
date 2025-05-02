@@ -17,7 +17,7 @@ function About() {
           <ul class="resumeList">
             <li>
               <motion.a
-                href="https://drive.google.com/file/d/1-WrKNQOpqb5L-nvfGdlVyPGqRV4r7_XG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Z7ylkgjDwpcEoUfh7ppCXL6gxwIGbtJC/view?usp=sharing"
                 target="_blank"
                 class="btn"
                 role="button"
