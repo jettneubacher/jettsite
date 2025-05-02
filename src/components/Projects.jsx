@@ -26,6 +26,7 @@ function Projects() {
             <p class="card-text">
               Full stack tool that translates audio into written tablature using
               an AI model that I built. Utilizes python, react, and vite.
+              Scallable with updates/improvements coming soon
             </p>
             <a
               href="https://jettneubacher.github.io/DrumTabs"
