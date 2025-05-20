@@ -41,25 +41,6 @@ function Projects() {
         <motion.div class="card" whileHover={{ scale: 1.1 }}>
           <div class="card-body">
             <h5 class="card-title">
-              OpenAI API Chatbot, Text with Walt Whitman
-            </h5>
-            <p class="card-text">
-              React/Vite Frontend chat app, connected to Heroku backend that
-              calls the OpenAI API. Utilizes AI prompt engineering and manually
-              managed API state
-            </p>
-            <a
-              href="https://jettneubacher.github.io/chatbot"
-              target="blank"
-              class="btn"
-            >
-              View
-            </a>
-          </div>
-        </motion.div>
-        <motion.div class="card" whileHover={{ scale: 1.1 }}>
-          <div class="card-body">
-            <h5 class="card-title">
               Social Media, AI, and Art: A new avant-garde
             </h5>
             <p class="card-text">
