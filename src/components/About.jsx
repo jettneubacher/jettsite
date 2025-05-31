@@ -60,6 +60,21 @@ function About() {
         that present themselves to me and I am always looking for new
         connections. Please don't hesitate to reach out!
       </p>
+      <br></br>
+      <div class="main-header2">Certifications</div>
+      <ul class="cert-list">
+        <li>
+          <motion.a
+            href="https://drive.google.com/file/d/1Dq48ge_e8uZA0xINaWKSxPJg_6qjz_Qq/view?usp=sharing"
+            target="_blank"
+            class="btn"
+            role="button"
+            whileHover={{ scale: 1.1 }}
+          >
+            IBM AI Developer{" "}
+          </motion.a>
+        </li>
+      </ul>
     </motion.div>
   );
 }
